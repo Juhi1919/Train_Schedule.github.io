@@ -1,40 +1,33 @@
-header {
-	padding: 120px 0px;
-	background-image: url("../images/bg.jpg");
-	background-size: 100% 100%;
+body {
+    background-image: url("../images/bg.jpg");
+    
 }
 
-.title {
-	font-size: 80px;
-	margin-top: 0px;
-	margin-bottom: 50px;
+.container {
+	height: auto;
+	width: 100%;
 }
 
-.header-text {
-	font-size: 25px;
-	font: bold;
-	color: white;
+.jumbotron {
+	opacity: 0.7;
 }
 
-.time-text {
-	font-size: 18px;
+.panel {
+	opacity: 0.8;
 }
 
-.card-title {
-	color: white;
-	padding-bottom: 5px;
-	padding-left: 15px;
+.panel > .panel-heading {
+    background-color: black;
+    color: white;
 }
 
-.card {
-	margin-top: 10px;
-	margin-bottom: 10px;
+#addBtn {
+    background-color: black;
+    color: white;
+    border: 1px white;
 }
+#traininfo
+{
+    color:black;
 
-.card-row {
-	margin: 10px 50px;
-}
-
-th {
-	font-weight: bold;
 }
